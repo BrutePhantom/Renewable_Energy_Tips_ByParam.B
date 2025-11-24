@@ -41,11 +41,19 @@ header>nav>div{
 
 header>nav>div>a:hover{
     color: rgb(50, 99, 50);
+    transform: scale(20px);
+    font-size: 30px;
+    background-color: #82b7ec;
+    border-radius: 8px;
+    padding: 8px;
 }
 
 header>nav>div>a{
     text-decoration: none;
     color: black;
+    transition: all 2s;
+    margin: auto;
+    
 }
 
 header>nav>a>img{
@@ -213,7 +221,7 @@ header>nav>a>img{
 }
 
 #solar{
-    display: ;
+    
     padding: 30px;
 }
 
@@ -380,10 +388,5 @@ footer {
     }
 
 
-    @media screen (max-width:650px){
-        #about>#why{
-            display: flex;
-            flex-direction: row;
-            flex-wrap:wrap;
-        }
-    }
+   
+    
