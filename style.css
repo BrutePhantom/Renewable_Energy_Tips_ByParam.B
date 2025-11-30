@@ -33,6 +33,7 @@ header{
 header>nav>div{
     display: flex;
     justify-content: space-between;
+    max-width: 475px;
     gap: 30px;
     font-size: 20px;
     font-weight: 1000;
@@ -70,11 +71,19 @@ header>nav>a>img{
     border: none;
     border-radius: 12px;
     font-size: large;
+    transition: all 0.1s;
+    margin: auto;
 }
 
 #signup:hover{
     background-color: darkgreen;
     cursor: pointer;
+}
+
+#signup:active{
+    width: 146px;
+    height:46px ;
+    transform: scale(20px);
 }
 
 #calmpower{
@@ -112,11 +121,16 @@ header>nav>a>img{
     width: 200px;
     border-radius: 8px;
     font-size: large;
+    transition: all 1s;
+    margin: auto;
 }
 
 #explore:hover{
     background-color: darkgreen;
     cursor: pointer;
+    width: 154px;
+    height:54px ;
+    transform: scale(20px);
 }
 
 #about{
