@@ -95,6 +95,7 @@ header>nav>a>img{
     position: relative;;
     max-width: 1512px;
     margin: auto;
+    filter: blur(2px);
 }
 
 #slogan{
