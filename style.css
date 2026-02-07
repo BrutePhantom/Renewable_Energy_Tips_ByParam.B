@@ -41,10 +41,9 @@ header>nav>div{
 }
 
 header>nav>div>a:hover{
-    color: rgb(50, 99, 50);
+    color: rgb(84, 188, 84);
     transform: scale(20px);
-    font-size: 30px;
-    background-color: #82b7ec;
+
     border-radius: 8px;
     padding: 8px;
 }
@@ -52,7 +51,7 @@ header>nav>div>a:hover{
 header>nav>div>a{
     text-decoration: none;
     color: black;
-    transition: all 2s;
+    transition: all 0.4s;
     margin: auto;
     
 }
@@ -71,7 +70,7 @@ header>nav>a>img{
     border: none;
     border-radius: 12px;
     font-size: large;
-    transition: all 0.1s;
+    transition: all 0.4s;
     margin: auto;
 }
 
@@ -121,16 +120,13 @@ header>nav>a>img{
     width: 200px;
     border-radius: 8px;
     font-size: large;
-    transition: all 1s;
+    transition: all 0.4s;
     margin: auto;
 }
 
 #explore:hover{
     background-color: darkgreen;
     cursor: pointer;
-    width: 154px;
-    height:54px ;
-    transform: scale(20px);
 }
 
 #about{
